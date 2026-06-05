@@ -1,0 +1,2 @@
+# EnfoNovel2yaml_script
+小说自动转换YAML剧本工具
