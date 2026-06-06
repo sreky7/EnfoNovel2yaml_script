@@ -1,9 +1,13 @@
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
+
 import os
 import yaml
 
 # 改成项目完整根目录
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SOURCE_DIR = os.path.join(BASE_DIR, "source")
+OUT_DIR = os.path.join(BASE_DIR, "output")
 
 def get_all_novel_files():
     """遍历source文件夹，获取全部txt路径"""
@@ -35,5 +39,22 @@ def build_drama_struct(book_name, content):
     return drama_data
 
 if __name__ == "__main__":
+    # 不存在输出目录则创建
+    if not os.path.exists(OUT_DIR):
+        os.mkdir(OUT_DIR)
+
     files = get_all_novel_files()
     print("待转换小说列表：", files)
+
+    # 循环批量转换
+    for path in files:
+        book_name = os.path.splitext(os.path.basename(path))[0]
+        text = read_novel_text(path)
+        drama_dict = build_drama_struct(book_name, text)
+
+        # 写入yaml文件，utf-8固定编码
+        save_path = os.path.join(OUT_DIR, f"{book_name}.yaml")
+        with open(save_path, "w", encoding="utf-8") as f:
+            yaml.dump(drama_dict, f, allow_unicode=True, sort_keys=False)
+
+    print("✅ 全部转换完成，YAML文件存放于output文件夹")
