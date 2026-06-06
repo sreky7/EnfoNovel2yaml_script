@@ -1,11 +1,19 @@
-# 剧本YAML Schema V1.0
-## 结构定义（两层结构：book_info + scene_list）
-```yaml
-book_info:
-  book_name: str       # 必填：书名
-  source: str          # 必填：素材来源
-  chapter_total: int   # 必填：总章节数，用于3章分幕判断
-scene_list:
-  - scene_id: int
-    chapter_title: str
-    scene_content: str
+# DeepSeek全自动小说转剧本部署指南
+## 步骤1：DeepSeek平台注册拿密钥
+1.打开 https://platform.deepseek.com 注册账号；
+2.左侧API Keys→Create new API Key，复制sk开头密钥填入config.ini。
+## 步骤2：项目目录结构
+NovelToScript
+├─ source  存放待转换txt小说
+├─ output  自动生成成品剧本
+├─ doc     Schema规范文档
+├─ config.ini 配置API密钥
+├─ novel2drama.py
+└─ requirements.txt
+## 步骤3：安装依赖
+pip install -r requirements.txt
+## 步骤4：运行
+python novel2drama.py
+output自动生成成品yaml剧本，全自动拆分旁白/动作/台词，无需手动修改。
+## 报错说明
+401：密钥错误；超时：网络重试；返回非json：不要修改Prompt。
