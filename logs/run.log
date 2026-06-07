@@ -1,0 +1,111 @@
+2026-06-07 00:42:57,148 - INFO - =====项目启动=====
+2026-06-07 00:42:57,148 - INFO - 待处理文件：['c:\\Users\\ASUS\\EnfoNovel2yaml_script\\source\\novel1.txt', 'c:\\Users\\ASUS\\EnfoNovel2yaml_script\\source\\novel2.txt', 'c:\\Users\\ASUS\\EnfoNovel2yaml_script\\source\\novel3.txt']
+2026-06-07 00:42:57,148 - INFO - 开始解析章节：开篇序章
+2026-06-07 00:42:57,148 - INFO - 章节超长，拆分为4段
+2026-06-07 00:43:10,078 - INFO - novel1剧本生成完成
+2026-06-07 00:43:10,079 - INFO - novel2剧本生成完成
+2026-06-07 00:43:10,079 - INFO - novel3剧本生成完成
+2026-06-07 00:43:10,079 - INFO - =====项目执行完毕=====
+2026-06-07 00:46:05,827 - INFO - =====项目启动=====
+2026-06-07 00:46:05,828 - INFO - 待处理文件：['c:\\Users\\ASUS\\EnfoNovel2yaml_script\\source\\novel1.txt', 'c:\\Users\\ASUS\\EnfoNovel2yaml_script\\source\\novel2.txt', 'c:\\Users\\ASUS\\EnfoNovel2yaml_script\\source\\novel3.txt']
+2026-06-07 00:46:05,829 - INFO - 开始解析章节：开篇序章
+2026-06-07 00:46:05,829 - INFO - 章节超长，拆分为4段
+2026-06-07 00:46:59,037 - INFO - novel1剧本生成完成
+2026-06-07 00:46:59,038 - INFO - novel2剧本生成完成
+2026-06-07 00:46:59,038 - INFO - novel3剧本生成完成
+2026-06-07 00:46:59,038 - INFO - =====项目执行完毕=====
+2026-06-07 15:08:38,059 - INFO - =====Flask服务启动=====
+2026-06-07 15:08:38,104 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.98.151.71:5000
+2026-06-07 15:08:38,104 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:08:38,105 - INFO -  * Restarting with stat
+2026-06-07 15:08:38,408 - INFO - =====Flask服务启动=====
+2026-06-07 15:08:38,418 - WARNING -  * Debugger is active!
+2026-06-07 15:08:38,423 - INFO -  * Debugger PIN: 135-926-309
+2026-06-07 15:10:24,850 - INFO - 127.0.0.1 - - [07/Jun/2026 15:10:24] "GET / HTTP/1.1" 200 -
+2026-06-07 15:10:25,620 - INFO - 127.0.0.1 - - [07/Jun/2026 15:10:25] "GET /api/novels HTTP/1.1" 200 -
+2026-06-07 15:10:25,621 - INFO - 127.0.0.1 - - [07/Jun/2026 15:10:25] "GET /api/outputs HTTP/1.1" 200 -
+2026-06-07 15:10:25,954 - INFO - 127.0.0.1 - - [07/Jun/2026 15:10:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-07 15:31:01,066 - INFO - =====Flask服务启动=====
+2026-06-07 15:31:01,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:31:01,193 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:31:01,197 - INFO -  * Restarting with stat
+2026-06-07 15:31:01,435 - INFO - =====Flask服务启动=====
+2026-06-07 15:31:01,450 - WARNING -  * Debugger is active!
+2026-06-07 15:31:01,452 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:31:19,855 - INFO - =====Flask服务启动=====
+2026-06-07 15:31:19,872 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:31:19,872 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:31:19,873 - INFO -  * Restarting with stat
+2026-06-07 15:31:20,104 - INFO - =====Flask服务启动=====
+2026-06-07 15:31:20,113 - WARNING -  * Debugger is active!
+2026-06-07 15:31:20,115 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:31:45,729 - INFO - =====Flask服务启动=====
+2026-06-07 15:31:45,752 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:31:45,752 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:31:45,754 - INFO -  * Restarting with stat
+2026-06-07 15:31:45,976 - INFO - =====Flask服务启动=====
+2026-06-07 15:31:45,985 - WARNING -  * Debugger is active!
+2026-06-07 15:31:45,986 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:35:37,279 - INFO - =====Flask服务启动=====
+2026-06-07 15:35:37,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:35:37,296 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:35:37,298 - INFO -  * Restarting with stat
+2026-06-07 15:35:37,535 - INFO - =====Flask服务启动=====
+2026-06-07 15:35:37,544 - WARNING -  * Debugger is active!
+2026-06-07 15:35:37,546 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:36:40,691 - INFO - 127.0.0.1 - - [07/Jun/2026 15:36:40] "GET / HTTP/1.1" 200 -
+2026-06-07 15:36:41,017 - INFO - 127.0.0.1 - - [07/Jun/2026 15:36:41] "GET /api/novels HTTP/1.1" 200 -
+2026-06-07 15:36:41,017 - INFO - 127.0.0.1 - - [07/Jun/2026 15:36:41] "GET /api/outputs HTTP/1.1" 200 -
+2026-06-07 15:36:41,379 - INFO - 127.0.0.1 - - [07/Jun/2026 15:36:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-07 15:40:48,055 - INFO - =====Flask服务启动=====
+2026-06-07 15:40:48,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:40:48,166 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:40:48,170 - INFO -  * Restarting with stat
+2026-06-07 15:40:48,399 - INFO - =====Flask服务启动=====
+2026-06-07 15:40:48,410 - WARNING -  * Debugger is active!
+2026-06-07 15:40:48,412 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:42:49,407 - INFO - =====Flask服务启动=====
+2026-06-07 15:42:49,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:42:49,438 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:42:49,440 - INFO -  * Restarting with stat
+2026-06-07 15:42:49,665 - INFO - =====Flask服务启动=====
+2026-06-07 15:42:49,674 - WARNING -  * Debugger is active!
+2026-06-07 15:42:49,675 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:45:20,154 - INFO -  * Detected change in 'C:\\Users\\ASUS\\Desktop\\EnfoNovel2yaml_script（mm）\\app.py', reloading
+2026-06-07 15:45:20,188 - INFO -  * Restarting with stat
+2026-06-07 15:45:20,437 - INFO - =====Flask服务启动=====
+2026-06-07 15:45:20,447 - WARNING -  * Debugger is active!
+2026-06-07 15:45:20,448 - INFO -  * Debugger PIN: 105-242-379
+2026-06-07 15:45:40,429 - INFO - =====Flask服务启动=====
+2026-06-07 15:45:40,456 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:45:40,456 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 15:48:12,071 - INFO - =====Flask服务启动=====
+2026-06-07 15:48:12,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.22.93.237:5000
+2026-06-07 15:48:12,090 - INFO - [33mPress CTRL+C to quit[0m
