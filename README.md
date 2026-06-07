@@ -1,4 +1,8 @@
 # DeepSeek全自动小说转剧本部署指南
+
+项目简介：sreky7
+🎬 项目Demo演示视频：[B站视频链接](https://www.bilibili.com/video/BV11KEh65EV6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=a67e6aa71d160cf2e01eb1ed38bb9b06)
+
 ## 项目说明
 本工具依据自研YAML Schema规范，实现本地TXT小说一键自动转为结构化影视剧剧本，依托DeepSeek大模型全自动拆分旁白、动作、人物台词，全程无需人工修改。
 
