@@ -109,3 +109,15 @@
  * Running on http://127.0.0.1:5000
  * Running on http://10.22.93.237:5000
 2026-06-07 15:48:12,090 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-07 17:05:47,367 - INFO - =====项目启动=====
+2026-06-07 17:05:47,367 - INFO - 待处理文件：['c:\\Users\\ASUS\\Desktop\\EnfoNovel2yaml_script\\source\\novel1.txt', 'c:\\Users\\ASUS\\Desktop\\EnfoNovel2yaml_script\\source\\novel2.txt', 'c:\\Users\\ASUS\\Desktop\\EnfoNovel2yaml_script\\source\\novel3.txt']
+2026-06-07 17:05:47,368 - INFO - novel1剧本生成完成
+2026-06-07 17:05:47,368 - INFO - 开始解析章节：开篇序章
+2026-06-07 17:05:47,368 - INFO - 章节超长，拆分为19段
+2026-06-07 17:07:49,985 - WARNING - 调用异常，第1次重试：Expecting ',' delimiter: line 14 column 61 (char 759)
+2026-06-07 17:08:46,880 - WARNING - 调用异常，第1次重试：Expecting ',' delimiter: line 30 column 517 (char 2946)
+2026-06-07 17:09:38,589 - INFO - novel2剧本生成完成
+2026-06-07 17:09:38,590 - INFO - 开始解析章节：开篇序章
+2026-06-07 17:09:38,590 - INFO - 章节超长，拆分为2段
+2026-06-07 17:09:58,131 - INFO - novel3剧本生成完成
+2026-06-07 17:09:58,131 - INFO - =====项目执行完毕=====
